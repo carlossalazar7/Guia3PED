@@ -172,37 +172,74 @@ namespace Guia3PED
             //Console.ReadKey();
 
             //menú
-            Console.Write(
-                "a.) Insertar al Frente" + "n" + 
-                "b.) Insertar al Final" + "n" + 
-                "c.) Insertar en una posición específica" + "n" +
-                "d.) Eliminar al Frente" + "n"+
-                "e.) Eliminar al Final" + "n"+
-                "f.) Mostrar lista" + "n"+
-                "g.) Salir" + "n"); 
+            ConsoleKeyInfo op;
 
-            Console.Write("Seleccione una opción: ");
-
-            switch (Console.Read())
+            do
             {
-                case '1':
-                    Console.Write("Suma..");
-                    // Continuar lógica y extraer métodos //
-                    break;
-                case '2':
-                    Console.Write("Resta..");
-                    // Continuar lógica y extraer métodos //
-                    break;
-                case '3':
-                    Console.Write("Multiplicación..");
-                    // Continuar lógica y extraer métodos //
-                    break;
-                case '4':
-                    Console.Write("División..");
-                    // Continuar lógica y extraer métodos //
-                    break;
-            }
-            Console.ReadKey();
+                Console.Write(
+                               "a.) Insertar al Frente" + "\n" +
+                               "b.) Insertar al Final" + "\n" +
+                               "c.) Insertar en una posición específica" + "\n" +
+                               "d.) Eliminar al Frente" + "\n" +
+                               "e.) Eliminar al Final" + "\n" +
+                               "f.) Mostrar lista" + "\n" +
+                               "g.) Salir" + "\n");
+
+                Console.Write("Seleccione una opción: \n");
+                op = Console.ReadKey(true);//Que no muestre la tecla señalada.
+                string valor, posicion;
+                
+
+                switch (op.Key)
+                {
+                    case ConsoleKey.A:
+                        Console.WriteLine("Insertar al frente..");
+                        Console.Write("Igresar valor: ");
+                        valor = Console.ReadLine();
+                        lista.InsertarI(Convert.ToInt32(valor));
+                        break;
+                    case ConsoleKey.B:
+                        Console.WriteLine("Insertar al final..");
+
+                        Console.Write("Igresar valor: ");
+                        valor = Console.ReadLine();
+                        lista.InsertarF(Convert.ToInt32(valor));
+                        break;
+                    case ConsoleKey.C:
+                        Console.WriteLine("Insertar en una posición especifica..");
+
+                        Console.Write("Igresar posición: ");
+                        posicion = Console.ReadLine();
+
+                        Console.Write("Igresar valor: ");
+                        valor = Console.ReadLine();
+
+                        lista.InsertarP(Convert.ToInt32(valor), Convert.ToInt32(posicion));
+                        break;
+                    case ConsoleKey.D:
+                        Console.WriteLine("Eliminar Inicio..");
+                        lista.EliminarI();
+                        break;
+                    case ConsoleKey.E:
+                        Console.WriteLine("Eliminar Final..");
+                        lista.EliminarF();
+                        break;
+                    case ConsoleKey.F:
+                        Console.WriteLine("Mostrar");
+                        lista.mostar();
+                        break;
+                    case ConsoleKey.G:
+                        Environment.Exit(0);
+                        break;
+                    default:
+                        Console.WriteLine("Seleccione una opción valida!");
+                        break;
+                }
+                Console.ReadKey();
+            } while (op.Key != ConsoleKey.Escape);
+
+
+
 
         }
 
