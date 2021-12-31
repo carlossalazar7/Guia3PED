@@ -1,0 +1,15 @@
+C:\Users\carlos\source\repos\Guia2PED\Guia3PED\Guia3PED\bin\Debug\net6.0\Guia3PED.exe
+C:\Users\carlos\source\repos\Guia2PED\Guia3PED\Guia3PED\bin\Debug\net6.0\Guia3PED.deps.json
+C:\Users\carlos\source\repos\Guia2PED\Guia3PED\Guia3PED\bin\Debug\net6.0\Guia3PED.runtimeconfig.json
+C:\Users\carlos\source\repos\Guia2PED\Guia3PED\Guia3PED\bin\Debug\net6.0\Guia3PED.dll
+C:\Users\carlos\source\repos\Guia2PED\Guia3PED\Guia3PED\bin\Debug\net6.0\ref\Guia3PED.dll
+C:\Users\carlos\source\repos\Guia2PED\Guia3PED\Guia3PED\bin\Debug\net6.0\Guia3PED.pdb
+C:\Users\carlos\source\repos\Guia2PED\Guia3PED\Guia3PED\obj\Debug\net6.0\Guia3PED.csproj.AssemblyReference.cache
+C:\Users\carlos\source\repos\Guia2PED\Guia3PED\Guia3PED\obj\Debug\net6.0\Guia3PED.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlos\source\repos\Guia2PED\Guia3PED\Guia3PED\obj\Debug\net6.0\Guia3PED.AssemblyInfoInputs.cache
+C:\Users\carlos\source\repos\Guia2PED\Guia3PED\Guia3PED\obj\Debug\net6.0\Guia3PED.AssemblyInfo.cs
+C:\Users\carlos\source\repos\Guia2PED\Guia3PED\Guia3PED\obj\Debug\net6.0\Guia3PED.csproj.CoreCompileInputs.cache
+C:\Users\carlos\source\repos\Guia2PED\Guia3PED\Guia3PED\obj\Debug\net6.0\Guia3PED.dll
+C:\Users\carlos\source\repos\Guia2PED\Guia3PED\Guia3PED\obj\Debug\net6.0\ref\Guia3PED.dll
+C:\Users\carlos\source\repos\Guia2PED\Guia3PED\Guia3PED\obj\Debug\net6.0\Guia3PED.pdb
+C:\Users\carlos\source\repos\Guia2PED\Guia3PED\Guia3PED\obj\Debug\net6.0\Guia3PED.genruntimeconfig.cache
